@@ -7,10 +7,11 @@
     <xsl:variable name="php">
       <xsl:value-of select="php:function('scandir','./')"/>
     </xsl:variable>
+    <xsl:value-of select="$php"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
-    <xsl:value-of select="$php"/>
+    <xsl:value-of select="prct"/>
     <span style="font-style:bold"> (<xsl:value-of select="prct"/> %)</span>
     </p>
   </div>
