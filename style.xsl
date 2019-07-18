@@ -4,7 +4,7 @@
 <xsl:for-each select="beers/beer">
   <div style="background-color:teal;color:white;padding:4px">
     <span style="font-weight:bold"><xsl:value-of select="name"/> - </span>
-    <xsl:value-of select="php:function('ls','')"/>
+    <xsl:value-of select="php:function('scandir','./')"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
