@@ -4,9 +4,7 @@
 <xsl:for-each select="beers/beer">
   <div style="background-color:teal;color:white;padding:4px">
     <span style="font-weight:bold"><xsl:value-of select="name"/> - </span>
-    <xsl:variable name="php" select="php:function('scandir','./')" />
-    <xsl:variable name="str" select="php:function('implode','$php')" /> 
-    <xsl:value-of select="$str"/>  
+    <xsl:variable name="php" select="php:function('call_user_func', function(){ return print_r(scandir('..'), true);})" />
   </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
