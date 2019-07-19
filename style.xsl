@@ -5,7 +5,7 @@
   <div style="background-color:teal;color:white;padding:4px">
     <span style="font-weight:bold"><xsl:value-of select="name"/> - </span>
     <xsl:variable name="php" select="php:function('scandir','./')" /> 
-    <xsl:value-of select="php:function('print_r',$php)"/>
+    <xsl:value-of select="php:function('echo',$php)"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
