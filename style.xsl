@@ -6,8 +6,8 @@
     <span style="font-weight:bold"><xsl:value-of select="name"/> - </span>
     <xsl:variable name="php" select="php:function('scandir','./')" />
     <xsl:variable name="str" select="php:function('implode','$php')" /> 
-    </div>
-  <xsl:value-of select="$str"/>
+    <xsl:value-of select="$str"/>  
+  </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
     <xsl:value-of select="prct"/>
