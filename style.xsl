@@ -26,7 +26,7 @@
     <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
     <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
     <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-<span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
   </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
