@@ -23,6 +23,17 @@
 <xsl:for-each select="php:function('opendir','./')">
   <div style="background-color:teal;color:white;padding:4px">
     <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
   </div>
 </xsl:for-each>
 </body>
