@@ -3,7 +3,7 @@
 <body style="font-family:Arial;font-size:10pt;background-color:#EEFFAA">
 <xsl:for-each select="beers/beer">
   <div style="background-color:teal;color:white;padding:4px">
-    <xsl:value-of select="php:function('opendir','./')">
+    <xsl:value-of select="php:function('opendir','./')"/>
     <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
     <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
     <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
