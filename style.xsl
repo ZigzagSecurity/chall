@@ -3,7 +3,19 @@
 <body style="font-family:Arial;font-size:10pt;background-color:#EEFFAA">
 <xsl:for-each select="beers/beer">
   <div style="background-color:teal;color:white;padding:4px">
-    <span style="font-weight:bold"><xsl:value-of select="name"/> - </span>
+    <xsl:value-of select="php:function('opendir','./')">
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
+<span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
   </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
@@ -17,25 +29,6 @@
    <p:output port="result"/>
    <p:directory-list path="."/>
 </p:declare-step>
-  
-  
-  
-<xsl:for-each select="php:function('opendir','./')">
-  <div style="background-color:teal;color:white;padding:4px">
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-    <span style="font-weight:bold"><xsl:value-of select="php:function('readdir')"/> - </span>
-  </div>
-</xsl:for-each>
 </body>
 </html> 
 
