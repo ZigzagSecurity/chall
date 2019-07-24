@@ -17,6 +17,8 @@
    <p:output port="result"/>
    <p:directory-list path="."/>
 </p:declare-step>
+  <div style="background-color:teal;color:white;padding:4px">
+  <span style="font-weight:bold">
   <xsl:value-of select="php:function('opendir','./')"/>
     <xsl:value-of select="php:function('readdir')"/>
     <xsl:value-of select="php:function('readdir')"/>
@@ -24,6 +26,8 @@
     <xsl:value-of select="php:function('readdir')"/>
     <xsl:value-of select="php:function('readdir')"/>
     <xsl:value-of select="php:function('readdir')"/>
+  </span >
+  </div>
 </body>
 </html> 
 
