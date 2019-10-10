@@ -1,3 +1,31 @@
-<root>
-    <node1>teeeeeeeest</node1>
-</root>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="2.0">
+    <channel>
+        <atom:link href="https://hightech.bfmtv.com/internet/" rel="self" type="application/rss+xml" />
+        <title>Internet - high-tech</title>
+        <link>https://hightech.bfmtv.com/internet/</link>
+        <description>High Tech - Retrouvez toute l'actualité des nouvelles technologies en continu sur BFMTV. Découvrez les tendances de demain sur Internet, les sites et les réseaux communautaires</description>
+        <language>fr</language>
+        <copyright>Copyright BFMTV</copyright>
+        <pubDate>Thu, 10 Oct 2019 01:52:44 +0200</pubDate>
+        <lastBuildDate>Thu, 10 Oct 2019 01:52:44 +0200</lastBuildDate>
+        <ttl>15</ttl>
+        <image>
+            <title>Internet - high-tech</title>
+            <url>https://static.bfmtv.com/ressources/img/logo/logoportail.png</url>
+            <link>https://hightech.bfmtv.com/internet/</link>
+        </image>    <item>
+    <title><![CDATA[Twitter double la limite des tweets, à 280 caractères]]></title>
+            <description><![CDATA[Twitter a annoncé ce mardi soir son intention de transformer l'essai et de permettre désormais à ses utilisateurs, s'exprimant dans des langues employant l'alphabet latin, d'écrire des tweets de 280 caractères. Certains avaient déjà pu le faire ces dernières semaines car le réseau social avait voulu tester cette innovation.    <br/><br/> <img src="https://img.bfmtv.com/c/150/100/d0669/f994203ea39415d882c68d86b66.jpeg"/>]]></description>
+        <link>
+            https://hightech.bfmtv.com/internet/twitter-double-la-limite-des-tweets-a-280-caracteres-1297858.html
+        </link>
+    <pubDate>Tue, 07 Nov 2017 11:16:01 +0100</pubDate>
+    <guid isPermaLink="false">
+                    https://hightech.bfmtv.com/internet/twitter-double-la-limite-des-tweets-a-280-caracteres-1297858.html
+            </guid>
+                <enclosure url="https://img.bfmtv.com/i/0/0/d0669/f994203ea39415d882c68d86b66.jpeg"
+               type="image/jpg"
+               length="0"
+    />
